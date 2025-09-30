@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Web Programming: Merangkai Materi</title>
+    <style type="text/css">
+        #header{
+            background-image: url(/web-kedua/img/nature.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #kalimat{
+            font-weight: bold;
+        }
+        .miring{
+            font-style: italic;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #header, #footer {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+        #menu ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        #menu li {
+            display: inline;
+            margin-right: 20px;
+        }
+        #content {
+            padding: 20px;
+            overflow: auto;
+        }
+        #sidebar {
+            float: right;
+            width: 30%;
+            padding-left: 20px;
+            border-left: 1px solid #ccc;
+        }
+        #article_1 {
+            float: left;
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>HTML LANJUTAN</h1>
+        <!-- <img src="logo_website.jpg" alt="Logo Website" style="height: 50px;"> -->
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+
+        <div id="article_1">
+            
+            <h3 id="judul1">Saya sedang belajar HTML</h3>
+            
+            <p id="paragraf1">
+                Pemrograman web adalah bagaimana belajar membuat website. HTML adalah singkatan dari 
+                <strong> Markup Language </strong>. Disebut <strong>hypertext</strong> karena di dalam 
+                HTML sebuah teks biasa dapat berfungsi lain, kita dapat membuatnya menjadi 
+                link yang dapat berpindah dari satu halaman ke halaman lainnya dengan hanya 
+                meng-klik teks tersebut.
+            </p>
+            
+            <img src="img/Logo_UNIPDU.png" alt="unipdu" height="100px" align="right" border="5"/>
+            
+            <p>Saat ini kita masih berfokus kepada seperti Tutorial Belajar HTML, Tutorial CSS, Tutorial PHP, Tutorial JavaScript, dan Tutorial MySQL.</p>
+            
+            <hr>
+
+            <h3>Daftar Singkatan Penting</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HTML adalah singkatan dari Hypertext Markup Language.</dd>
+                <dt>CSS</dt>
+                <dd>CSS adalah singkatan dari Cascading Style Sheet.</dd>
+                <dt>PHP</dt>
+                <dd>PHP adalah singkatan dari PHP: Hypertext Preprocessor.</dd>
+            </dl>
+
+            <hr>
+
+            <h3>Contoh Gaya Teks</h3>
+            <p>
+                <strong>Ini adalah <em>Sebuah</em> paragraf</strong>
+            </p>
+            <div id="kalimat">
+                Ini juga <span class="miring">Sebuah</span> paragraf (menggunakan CSS Internal)
+            </div>
+
+            <hr>
+            
+            <h3>Penggunaan Link Cepat</h3>
+            <br>
+            <a href="#paragraf1">Link A</a><br>
+            
+            <a id="situs1" href="https://www.unipdu.ac.id">Link B</a><br>
+            
+            <a href="halaman_lain.html#paragraf1">Link C</a>
+            
+        </div>
+
+        <div id="sidebar">
+            <h2>Artikel Terbaru</h2>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+            </ul>
+            <h2>Navigasi Cepat</h2>
+            <ul>
+                <li><a href="#judul1">Judul Pertama</a></li>
+                <li><a href="#judul1" id="situs1">Website Unipdu</a></li>
+                <li><a href="halaman_lain.html#paragraf1" id="situs1">Halaman Berikutnya</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footer">
+        <p>Footer - Copyright Pem WEB Unipdu 2025</p>
+        <p> Assisted by **Sophia** (σοφία)</p>
+    </div>
+
+</body>
+</html>
+    </div>
+
+</body>
+</html>
